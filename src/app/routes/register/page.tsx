@@ -5,6 +5,7 @@ import { RootState, AppDispatch } from "@/store/store";
 import { registerUser, resetState } from "@/store/registrationSlice";
 import { useRouter } from "next/navigation";
 import Navbar from "@/app/components/Navbar/Navbar";
+import "@/app/globals.css";
 
 const RegisterPage: React.FC = () => {
   const dispatch = useDispatch<AppDispatch>();

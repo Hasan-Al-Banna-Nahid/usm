@@ -14,7 +14,7 @@ const initialState: RegistrationState = {
   success: false,
 };
 const baseUrl =
-  "https://a2idbbbvij.execute-api.ap-southeast-2.amazonaws.com/default/task4";
+  "https://nmtb1f8pzc.execute-api.ap-southeast-2.amazonaws.com/default/task4";
 export const registerUser = createAsyncThunk(
   "registration/registerUser",
   async ({

@@ -3,6 +3,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useRouter } from "next/navigation";
 import Navbar from "@/app/components/Navbar/Navbar";
+import "@/app/globals.css";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -10,7 +11,7 @@ const Login = () => {
   const [error, setError] = useState<string | null>(null);
   const router = useRouter();
   const baseUrl =
-    "https://a2idbbbvij.execute-api.ap-southeast-2.amazonaws.com/default/task4";
+    "https://nmtb1f8pzc.execute-api.ap-southeast-2.amazonaws.com/default/task4";
 
   const handleLogin = async () => {
     try {
