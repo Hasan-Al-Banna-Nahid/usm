@@ -4,7 +4,7 @@ import axios from "axios";
 import { useRouter } from "next/navigation";
 import Navbar from "@/app/components/Navbar/Navbar";
 
-const page = () => {
+const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
@@ -76,4 +76,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Login;
